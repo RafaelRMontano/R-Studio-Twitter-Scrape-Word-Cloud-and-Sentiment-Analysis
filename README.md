@@ -31,7 +31,8 @@
        <li><a href="#analysis">Analysis</a></li>
        <ul>
         <li><a href="#correlation">Correlation</a></li>
-        <li><a href="#hashtag">Hashtags</a></li>
+        <li><a href="#word-cloud">Word Cloud</a></li>
+        <li><a href="#sentiment-analysis">Sentiment Analysis</a></li>
        </ul>
   </ol>
 </details>
@@ -132,6 +133,19 @@ We will look at word correlation among tweets to see which words are mentioned t
 <p align="center">
   <img src="./img/Netplot.png" alt="Statoscope example" width="550">
 </p>
-The `Network` will create a network plot of of the word correlation with the color determning how many people are mentioning it.
+The `Network` will create a network plot of of the word correlation with the color determning how many people are mentioning it. Here is a Function version as well to run it easier.
 
+<p align="center">
+  <img src="./img/Function.png" alt="Statoscope example" width="500">
+</p>
 
+### Word Cloud
+Here we will create a colorful wordcloud of the most used words.
+<p align="center">
+  <img src="./img/Cloud_graph.png" alt="Statoscope example" width="500">
+</p>
+
+The size represents the frequency and the color represent words with correlation to each other.
+
+### Sentiment Analysis
+This will be are sentiment Analysis were we create a form of a word cloud displaying the most common good and bad words and their density.
