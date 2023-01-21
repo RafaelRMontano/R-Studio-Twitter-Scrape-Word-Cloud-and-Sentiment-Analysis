@@ -23,7 +23,11 @@
         <li><a href="#data-frame">Data Frame</a></li>
         <li><a href="#columns">Columns</a></li>
       </ul>
-    </li>
+      <li><a href="#cleaning-tweet">Cleaning Tweet</a></li>
+       <ul>
+        <li><a href="#url-and-@">Url and @</a></li>
+        <li><a href="#hashtag">Hashtags</a></li>
+       </ul>
   </ol>
 </details>
 
@@ -72,11 +76,13 @@ There are three main methods we will be looking at on how to scrape tweets. Gett
 For this example I will be using Walmart and using the 3rd method only and only getting tweets containing the word "Walmart".
 
 ### Data Frame
-Here we will turn those tweets into a data frame to use it and see it much easier.
+Here we will turn those tweets into a data frame to use it and see it much easier. 
 
 <p align="center">
   <img src="./img/DF.png" alt="Statoscope example" width="600">
 </p>
+
+
 
 ### Columns
 When we view the data frame we will see there are alot of diffirent data info/columns. The ones we only realy want are the `ScreenName`(The person tweeting), and `Text`(tweet itself).
@@ -85,9 +91,19 @@ When we view the data frame we will see there are alot of diffirent data info/co
   <img src="./img/Columns.png" alt="Statoscope example" width="600">
 </p>
 
+`Distinct(Text)` makes sure we are getting unique tweets and not people saying the same thing due to retweets. You can keep it in though, just remove the distinct code.
 
+## Cleaning Tweet
+The tweet in the data frame right now looks very messy so we will go over some ways to clean it up. 
 
-In the `FoodList` table you will see hundred of various food items with there according measurments which equates to 1 portions. If there is a food item on there you wish to add click on the button to add it and a messagebox will popup asking you to input its according information.
+### Url and @
 
-### Food Record
-In the `DailyRecord` page you will see a table of all the foods items you saved in the food entry page. The information here is then visualized in the `FoodPivot` page . Click the `Reset` button if you wish to start over and have new information displayed.
+* First part cleans by removing any `URL links` people have in their tweet
+* Next removes the `:` at the end of an @ mention in order to get rid of the @
+* Now that we remove the colon we can get rid of the `@` mention.
+
+### Hashtag
+* The first hashtag code removes the entire hashtag word
+* Second part just removes the hashtag symbol
+
+If you mess up any of these just rerun the tweet1 code that gets the name and column only data frame.
