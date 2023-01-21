@@ -11,6 +11,9 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       </ul>
+         <li><a href="#packages">Packages</a></li>
+        <li><a href="#connection">Connection</a></li>
+        </ul>
     </li>
     <li><a href="#twitter-api-setup">Twitter API Setup</a></li>
     <li>
@@ -33,6 +36,18 @@ This project was built with excel vba and macros. It contains a BMI calculator, 
 
 Make sure you have excel downloaded. If not this should work on the microsofts free online version, the only diffirence is that you cannot edit the vba code there. Make sure macros are enabled in order to run the code.
 
+### Packages
+
+<p align="center">
+  <img src="./img/Packages1.png" alt="Statoscope example" width="600">
+</p>
+
+### Connection
+
+
+## Twitter API Setup
+
+In order to setup the API we first need to go to the[Twitter Developer site](https://developer.twitter.com/en) and create and account. Don't worry this is all free and all you need to do is input some info on your project and agree to terms.
 
 ## BMI Calculator
 
