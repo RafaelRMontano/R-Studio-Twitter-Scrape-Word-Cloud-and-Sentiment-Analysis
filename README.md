@@ -1,4 +1,4 @@
-# BMI & Nutrition Calculator
+# R Studio Twitter Scrape and Sentiment Analysis
 
 <!-- TABLE OF CONTENTS -->
 <details>
