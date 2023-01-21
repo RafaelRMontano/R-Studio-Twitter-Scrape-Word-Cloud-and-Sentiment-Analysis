@@ -40,7 +40,7 @@
 
 ## About The Project
 
-This project was built with RStudio as a means to webscrape tweet off twitter. This  can also be commonly doen in Python, but for I prefer the method of using R to scrape this data and conduct anaylsis. Because of Twitter rules the API only allow scraping of tweets from only as far back as a week ago. This is more that enough though to see current information and make various anaylsis on it which we will be doing here in the form of correlation, sentiment anaylsis and word clouds.
+This project was built with RStudio as a means to webscrape tweets off twitter. This  can also be commonly done in Python, but I prefer the method of using R to scrape this data and conduct anaylsis. Because of Twitter rules the API only allow scraping of tweets from only as far back as a week ago. This is more that enough though to see current information and make various anaylsis on it which we will be doing here in the form of `correlation`, `word clouds` and `sentiment analysis`.
 
 
 ## Getting Started
