@@ -17,11 +17,11 @@
     </li>
     <li><a href="#twitter-api-setup">Twitter API Setup</a></li>
     <li>
-      <a href="#nutrition-calculator">Nutrition Calculator</a>
+      <a href="#scraping-tweets">Scraping Tweets</a>
       <ul>
-        <li><a href="#food-entry">Food Entry</a></li>
-        <li><a href="#food-list">Food List</a></li>
-        <li><a href="#food-record">Food Record</a></li>
+        <li><a href="#scraping-methods">Scraping Methods</a></li>
+        <li><a href="#data-frame">Data Frame</a></li>
+        <li><a href="#columns">Columns</a></li>
       </ul>
     </li>
   </ol>
@@ -47,21 +47,45 @@ Make sure you have excel downloaded. If not this should work on the microsofts f
 
 ## Twitter API Setup
 
-In order to setup the API we first need to go to the[Twitter Developer site](https://developer.twitter.com/en) and create and account. Don't worry this is all free and all you need to do is input some info on your project and agree to terms.
+In order to setup the API we first need to go to the[Twitter Developer site](https://developer.twitter.com/en) and create and account. Don't worry this is all free and all you need to do is input some info on your project and agree to terms. The 4 main things we will need are, `API key`, `API secret`, `Acess Token`, and `Acess Token secret`. These will be given to us in the developer and our all uniqure to us so do not share it with anyone else. You will be pasting those keys/codes into quotes containg `X`.
 
-## BMI Calculator
+<p align="center">
+  <img src="./img/API_setup.png" alt="Statoscope example" width="600">
+</p>
 
-The first page is the BMI index calculator. There are already example inputs put into place for you to see and change to your personal index. You will then be given the BMI, BMR and AMR corresponding to your inputs along with a weight loss and gain chart. These results will all be in calories
+After all that running this you should see them those 4 as values on the right side in environments. If in the console line it asks to use a local file to cache, type "2" to select No and enter.
 
-## Nutrition Calculator
 
-### Food Entry
 
-The next page will be where you input the foods you ate. You will see a date on the top left for the given day and you will start with the `Meal/Snack` entry. It will give you a drop down of choices and when chosen you will move along the entries to the right which will all be drop downs as well expect for the `Portion` where you will eat how many of that foot item you item(1 portion = 1 serving so 1 apple portion = 1 apple etc).
 
-Input your calorie goal on the top and fill out the given table and when you are ready you may click one of the two buttons on the top to save the data with or withouth clearing the table.
 
-### Food List
+## Scraping Tweets
+
+### Scraping Methods
+
+There are three main methods we will be looking at on how to scrape tweets. Getting tweets from that person directly, getting tweets from people "@" tht person or tweets containing there name or keyword.
+
+<p align="center">
+  <img src="./img/Grab_tweet.png" alt="Statoscope example" width="600">
+</p>
+
+For this example I will be using Walmart and using the 3rd method only and only getting tweets containing the word "Walmart".
+
+### Data Frame
+Here we will turn those tweets into a data frame to use it and see it much easier.
+
+<p align="center">
+  <img src="./img/DF.png" alt="Statoscope example" width="600">
+</p>
+
+### Columns
+When we view the data frame we will see there are alot of diffirent data info/columns. The ones we only realy want are the `ScreenName`(The person tweeting), and `Text`(tweet itself).
+
+<p align="center">
+  <img src="./img/Columns.png" alt="Statoscope example" width="600">
+</p>
+
+
 
 In the `FoodList` table you will see hundred of various food items with there according measurments which equates to 1 portions. If there is a food item on there you wish to add click on the button to add it and a messagebox will popup asking you to input its according information.
 
