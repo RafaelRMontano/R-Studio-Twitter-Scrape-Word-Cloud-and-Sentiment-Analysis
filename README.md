@@ -33,6 +33,7 @@
         <li><a href="#correlation">Correlation</a></li>
         <li><a href="#word-cloud">Word Cloud</a></li>
         <li><a href="#sentiment-analysis">Sentiment Analysis</a></li>
+        <li><a href="#sentiment-words-ratio">Sentiment Words Ratio</a></li>
        </ul>
   </ol>
 </details>
@@ -142,10 +143,33 @@ The `Network` will create a network plot of of the word correlation with the col
 ### Word Cloud
 Here we will create a colorful wordcloud of the most used words.
 <p align="center">
-  <img src="./img/Cloud_graph.png" alt="Statoscope example" width="500">
+  <img src="./img/Cloud_graph.png" alt="Statoscope example" width="400">
 </p>
 
 The size represents the frequency and the color represent words with correlation to each other.
 
 ### Sentiment Analysis
-This will be are sentiment Analysis were we create a form of a word cloud displaying the most common good and bad words and their density.
+This will be are sentiment Analysis were we create a form of a word cloud displaying the most common good and bad words and their density. We will be using 3 diffirent sentiment/lexicon libraries for our sentiment analysis `afinn`, `bing`, and `nrc`. [Refer to this example](https://afit-r.github.io/sentiment_analysis) on understanding the diffirenty lexicons and feel free to use which ever or all 3 as I did.
+
+<p align="center">
+  <img src="./img/Sentiment.png" alt="Statoscope example" width="500">
+</p>
+
+<p align="center">
+  <img src="./img/Sentiment_graph.png" alt="Statoscope example" width="400">
+</p>
+
+If the `Postitive` and `Negative` headers are not showing then click clear all plots and run again.
+
+### Sentiment Words Ratio
+Here will look at how to take the ratio of positive to negative words and see the overall score.
+
+<p align="center">
+  <img src="./img/review.png" alt="Statoscope example" width="500">
+</p>
+<p align="center">
+    <img src="./img/Score.png" alt="Statoscope example" width="200">
+</p>
+
+This overall score of 0.39 means that for that week we had 39% of the word sentiments were positive meaning only 39% of the words were overall positive while 61% were ngative.
+
