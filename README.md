@@ -25,7 +25,12 @@
       </ul>
       <li><a href="#cleaning-tweet">Cleaning Tweet</a></li>
        <ul>
-        <li><a href="#url-and-@">Url and @</a></li>
+        <li><a href="#url-and-username-symbol">Url and Username Symbol</a></li>
+        <li><a href="#hashtag">Hashtags</a></li>
+       </ul>
+       <li><a href="#analysis">Analysis</a></li>
+       <ul>
+        <li><a href="#correlation">Correlation</a></li>
         <li><a href="#hashtag">Hashtags</a></li>
        </ul>
   </ol>
@@ -96,7 +101,7 @@ When we view the data frame we will see there are alot of diffirent data info/co
 ## Cleaning Tweet
 The tweet in the data frame right now looks very messy so we will go over some ways to clean it up. 
 
-### Url and @
+### Url and Username Symbol
 
 * First part cleans by removing any `URL links` people have in their tweet
 * Next removes the `:` at the end of an @ mention in order to get rid of the @
@@ -104,6 +109,19 @@ The tweet in the data frame right now looks very messy so we will go over some w
 
 ### Hashtag
 * The first hashtag code removes the entire hashtag word
-* Second part just removes the hashtag symbol
+* Second part just removes the `#` symbol
 
 If you mess up any of these just rerun the tweet1 code that gets the name and column only data frame.
+
+## Analysis
+
+### Correlation
+We will look at word correlation among tweets to see which words are mentioned the most and whats the correlation between them.
+
+<p align="center">
+  <img src="./img/Words.png" alt="Statoscope example" width="600">
+</p>
+
+* The `Brocken down words` code breaks down each tweet into its seperate words and we are filtering out the retweet word "rt"
+* `Word Frequency` organizing the words by how a minimum amount of times it is mentioned. Here we have a data frame of all the words that are mentioned atleast more than 7 times. 
+*  `Word Correlation` sorts words by how closely they are mentioned within each other in the tweets. Increase  0.4 if you want to increase the strength of correlation, up to 1 but you will end up with less results.
