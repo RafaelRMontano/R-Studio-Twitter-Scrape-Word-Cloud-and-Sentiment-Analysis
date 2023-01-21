@@ -125,3 +125,13 @@ We will look at word correlation among tweets to see which words are mentioned t
 * The `Brocken down words` code breaks down each tweet into its seperate words and we are filtering out the retweet word "rt"
 * `Word Frequency` organizing the words by how a minimum amount of times it is mentioned. Here we have a data frame of all the words that are mentioned atleast more than 7 times. 
 *  `Word Correlation` sorts words by how closely they are mentioned within each other in the tweets. Increase  0.4 if you want to increase the strength of correlation, up to 1 but you will end up with less results.
+
+<p align="center">
+  <img src="./img/network.png" alt="Statoscope example" width="550">
+</p>
+<p align="center">
+  <img src="./img/Netplot.png" alt="Statoscope example" width="550">
+</p>
+The `Network` will create a network plot of of the word correlation with the color determning how many people are mentioning it.
+
+
