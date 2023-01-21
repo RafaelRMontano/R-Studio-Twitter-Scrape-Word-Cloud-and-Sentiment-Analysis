@@ -29,7 +29,7 @@
 
 ## About The Project
 
-This project was built with excel vba and macros. It contains a BMI calculator, along with a nutrtion calculator which generate resuts given the users personal inputs. I made these as a means to record my calories intake in order to help watch my weight and other nutrition stats as I was in the middle of traveling and couldn't maintain my normal eating schedule and workouts. Hope it may help whoever with there personal health research or just curious.
+This project was built with RStudio as a means to webscrape tweet off twitter. This  can also be commonly doen in Python, but for I prefer the method of using R to scrape this data and conduct anaylsis. Because of Twitter rules the API only allow scraping of tweets from only as far back as a week ago. This is more that enough though to see current information and make various anaylsis on it which we will be doing here in the form of correlation, sentiment anaylsis and word clouds.
 
 
 ## Getting Started
