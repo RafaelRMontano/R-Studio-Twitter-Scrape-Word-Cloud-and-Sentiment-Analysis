@@ -58,7 +58,7 @@ Make sure you have excel downloaded. If not this should work on the microsofts f
 
 ## Twitter API Setup
 
-In order to setup the API we first need to go to the[Twitter Developer site](https://developer.twitter.com/en) and create and account. Don't worry this is all free and all you need to do is input some info on your project and agree to terms. The 4 main things we will need are, `API key`, `API secret`, `Acess Token`, and `Acess Token secret`. These will be given to us in the developer and our all uniqure to us so do not share it with anyone else. You will be pasting those keys/codes into quotes containg `X`.
+In order to setup the API we first need to go to the[Twitter Developer site](https://developer.twitter.com/en) and create and account. Don't worry this is all free and all you need to do is input some info on your project and agree to terms. The 4 main things we will need are, `API key`, `API secret`, `Acess Token`, and `Acess Token secret`. These will be given to us in the developer and our all unique to us so do not share it with anyone else. You will be pasting those keys/codes into quotes containg `X`.
 
 <p align="center">
   <img src="./img/API_setup.png" alt="Statoscope example" width="600">
