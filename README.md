@@ -102,7 +102,9 @@ When we view the data frame we will see there are alot of diffirent data info/co
 
 ## Cleaning Tweet
 The tweet in the data frame right now looks very messy so we will go over some ways to clean it up. 
-
+<p align="center">
+  <img src="./img/Clean.png" alt="Statoscope example" width="600">
+</p>
 ### Url and Username Symbol
 
 * First part cleans by removing any `URL links` people have in their tweet
